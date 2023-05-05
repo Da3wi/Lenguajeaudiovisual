@@ -16,7 +16,7 @@ MonoBehaviour:
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
-    volume: 0.2
+    volume: 0.3
 --- !u!114 &-7720203386667386053
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Loop: 0
   m_bufferingTime: 0.1
   m_ClipProperties:
-    volume: 0.2
+    volume: 0.3
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,10 +216,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1
-    m_ClipIn: 0.00000000000000013877787807814457
+    m_Start: 0.6833333333333333
+    m_ClipIn: 0.000000000000000027755575615628914
     m_Asset: {fileID: -4399020620690101107}
-    m_Duration: 12.133333333332999
+    m_Duration: 13.066666666666666
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5782710377533981798}
     m_EaseInDuration: 0
@@ -308,16 +308,16 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0.5833333333333334
-    m_ClipIn: 0
+    m_Start: 0.6833333333333333
+    m_ClipIn: 0.09999999999999998
     m_Asset: {fileID: -2250879149718997379}
-    m_Duration: 9.033333333333333
+    m_Duration: 9.299999999999999
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8569816652375437714}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0.3666666666666796
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -367,7 +367,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
+    m_BlendOutCurveMode: 1
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
     m_Recordable: 0
@@ -377,15 +377,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: marcianeke
   - m_Version: 1
-    m_Start: 9.616666666666667
-    m_ClipIn: 40.849999999999994
+    m_Start: 9.616666666666653
+    m_ClipIn: 40.84999999999998
     m_Asset: {fileID: -8814554040442552429}
-    m_Duration: 4.133333333333333
+    m_Duration: 4.133333333333347
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8569816652375437714}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 0.3666666666666796
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -393,8 +393,8 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 0
         value: 0
-        inSlope: 0
-        outSlope: 0
+        inSlope: -0
+        outSlope: -0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
@@ -402,8 +402,8 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 0
-        outSlope: 0
+        inSlope: -0
+        outSlope: -0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
